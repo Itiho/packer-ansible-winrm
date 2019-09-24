@@ -19,7 +19,7 @@ RUN	apk --update add \
     jq \
     ca-certificates \
     openssh-client \
-    sed
+    sed \
     && apk --update add --virtual \
     build-dependencies \
     python-dev \
